@@ -8,10 +8,10 @@ import os
 import re
 
 # Zotero configuration
-library_id = '[ADD LIBRARY ID]'
-library_type = 'group'
-api_key = '[ADD API KEY]'
-excel_filename = "/Users/marlonkegel/Desktop/incite/post-neoliberalism/literature/literature_RI.xlsx"
+library_id = '[LIBRARY ID]'
+library_type = '['group' for shared libraries or 'user' for others]'
+api_key = '[API KEY]'
+excel_filename = "[FILE PATH].xlsx"
 
 # Initialize Zotero client
 zot = zotero.Zotero(library_id, library_type, api_key)
