@@ -11,7 +11,7 @@ import re
 library_id = '[LIBRARY ID]'
 library_type = '['group' for shared libraries or 'user' for others]'
 api_key = '[API KEY]'
-excel_filename = "[FILE PATH].xlsx"
+excel_filename = '[FILE PATH].xlsx'
 
 # Initialize Zotero client
 zot = zotero.Zotero(library_id, library_type, api_key)
